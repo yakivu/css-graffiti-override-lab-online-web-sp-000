@@ -7,4 +7,15 @@
     
     #wall.tag-1 #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7
     {display: none;}
-   
+   tag-1 {
+    background: url(../images/tag-1.png) no-repeat;
+    z-index: 7;
+    display: none;
+}
+.tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 980px;
+    height: 622px;
+}
